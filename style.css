@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    text-align: center;
+    color: Red;
+}
+
+#map{
+    width: 60%;
+    height: 60vh;
+    margin: 0 auto 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: .5rem;
+    border: none;
+}
+
+#journey-details{
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem auto;
+    border: none;
+    border-radius: .5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#start-details > p:first-child, #end-details > p:first-child{
+    font-weight: bold;
+}
+
+#start-details > p:first-child{
+    color: green;
+}
+
+#end-details > p:first-child{
+    color: red;
+}
+
+#boat-speed{
+    color: blue;
+}
